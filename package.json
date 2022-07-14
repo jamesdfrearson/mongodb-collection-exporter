@@ -1,0 +1,28 @@
+{
+	"name": "mongodb-collection-exporter",
+	"version": "1.0.0",
+	"description": "A simple Node.js script that exports all collection data to a backup folder.",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node --max-old-space-size=8192 ./src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@10.0.30.10:31001/jamesdfrearson/mongodb-collection-exporter.git"
+	},
+	"keywords": [
+		"mongo",
+		"mongodb"
+	],
+	"author": "James Frearson",
+	"license": "ISC",
+	"dependencies": {
+		"big-json": "^3.1.0",
+		"dotenv": "^16.0.1",
+		"mongodb": "^4.8.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.19.0"
+	}
+}
