@@ -15,3 +15,7 @@ Clone the contents from `sample.env` into a `.env` file and enter the relevant d
 | DATABASE_NAME | mydb          |
 
 Run `npm start` and allow the backup process to complete.
+
+## Handling large amounts of data
+
+You may need to increase the memory limit for this application to run if you're handling large amounts of data. To do this, modify the `start` script in the `package.json` file (line 7) and change the value from `8192` to your desired value - please keep in mind this value is in megabytes.
