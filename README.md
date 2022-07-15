@@ -6,7 +6,7 @@ This is a simple Node.js script used to export data from collections to a backup
 
 First, run `npm i` to install all the necessary Node modules.
 
-Clone the contents into a `.env` file and enter the relevant data into it:
+Clone the contents from `sample.env` into a `.env` file and enter the relevant data into it:
 
 | Key           | Example Value |
 | ------------- | ------------- |
